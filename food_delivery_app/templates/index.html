@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/scripts.js') }}" defer></script>
+</head>
+<body>
+    <!-- background_waves -->
+    <div class="background">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showHomePage()">Home</a></li>
+            <li><a href="#" onclick="showOrdersPage()">Orders</a></li>
+            <li><a href="#" onclick="showSignInPage()">Sign In</a></li>
+            <li><a href="#" onclick="showHelpPage()">Help</a></li>
+        </ul>
+    </nav>
+
+    <!-- main_container -->
+    <div class="container">
+        <h1>Welcome to the Food Delivery App</h1>
+        <section class="filter-section"><!-- search_section -->
+            <input type="text" id="searchBar" placeholder="Search by cuisine..." />
+            <button id="searchButton">Search</button>
+        </section>
+        <section class="restaurant-grid"><!-- restaurant_grid_section_cards -->
+            {% for restaurant in restaurants %}
+            <div class="restaurant-card" onclick="showDetails('{{ restaurant.name }}', '{{ restaurant.image }}', '{{ restaurant.cuisine }}', '{{ restaurant.details.description }}')">
+                <img src="{{ restaurant.image }}" alt="{{ restaurant.name }}" />
+                <h3>{{ restaurant.name }}</h3>
+                <p>{{ restaurant.cuisine }}</p>
+            </div>
+            {% endfor %}
+        </section>
+        <section id="restaurantDetails" class="details-section" style="display: none;"><!-- restaurant_details_section -->
+            <h2 id="detailsName"></h2>
+            <img id="detailsImage" alt="Restaurant Image" />
+            <p id="detailsCuisine"></p>
+            <p id="detailsDescription"></p>
+            <button id="closeDetailsButton" onclick="hideDetails()">Close</button>
+        </section>
+        <section id="ordersPage" class="orders-section" style="display: none;"><!-- orders_page_section -->
+            <h2>Your Orders</h2>
+            <p>Here you can view and manage your orders.</p>
+        </section>
+        <section id="helpPage" class="help-section" style="display: none;"><!-- help_page_section -->
+            <h2>Help & Information</h2>
+            <p>Welcome to the Food Delivery App! Here, you can order food from a variety of restaurants, manage your orders, and have a seamless experience.</p>
+            <h3>Contact Information</h3>
+            <p>If you have any questions or need assistance, please contact us:</p>
+            <p>Email: support@fooddeliveryapp.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+        <section id="signInPage" class="sign-in-section" style="display: none;"> <!-- sign_in_page_section -->
+            <h2>Sign In</h2>
+            <form id="signInForm" onsubmit="handleSignIn(event)">
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit">Sign In</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>

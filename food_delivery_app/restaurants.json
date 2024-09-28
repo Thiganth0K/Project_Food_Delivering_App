@@ -1,0 +1,242 @@
+[
+    {
+        "name": "Olive Bistro",
+        "image": "/static/images/Olive_Bistro.jpeg",
+        "cuisine": "Italian",
+        "details": {
+            "description": "A cozy bistro offering traditional Italian dishes made with fresh ingredients.",
+            "specialties": "Pasta, Pizza, Tiramisu",
+            "ambiance": "Romantic, Family-friendly",
+            "location": "123 Olive Street, Gourmet City",
+            "hours": "11 AM - 10 PM"
+        }
+    },
+    {
+        "name": "Pasta Palace",
+        "image": "/static/images/Pasta_Palace.jpg",
+        "cuisine": "Italian",
+        "details": {
+            "description": "An upscale restaurant specializing in homemade pasta and classic Italian recipes.",
+            "specialties": "Fettuccine Alfredo, Lasagna",
+            "ambiance": "Elegant, Cozy",
+            "location": "124 Pasta Road, Gourmet City",
+            "hours": "12 PM - 11 PM"
+        }
+    },
+    {
+        "name": "Sukiyabashi Jiro",
+        "image": "/static/images/Sukiyabashi_Jiro.jpeg",
+        "cuisine": "Japanese",
+        "details": {
+            "description": "Renowned sushi restaurant known for its exceptional craftsmanship.",
+            "specialties": "Sushi, Sashimi",
+            "ambiance": "Elegant, Quiet",
+            "location": "456 Sushi Avenue, Tokyo",
+            "hours": "12 PM - 2 PM, 6 PM - 10 PM"
+        }
+    },
+    {
+        "name": "Katsuya",
+        "image": "/static/images/Katsuya.jpg",
+        "cuisine": "Japanese",
+        "details": {
+            "description": "A modern izakaya offering a variety of traditional and contemporary Japanese dishes.",
+            "specialties": "Katsu, Ramen",
+            "ambiance": "Trendy, Casual",
+            "location": "789 Ramen Street, Tokyo",
+            "hours": "11 AM - 10 PM"
+        }
+    },
+    {
+        "name": "Taco Fiesta",
+        "image": "/static/images/Taco_Fiesta.jpg",
+        "cuisine": "Mexican",
+        "details": {
+            "description": "Lively eatery serving up authentic Mexican tacos and margaritas.",
+            "specialties": "Tacos, Nachos",
+            "ambiance": "Festive, Casual",
+            "location": "789 Taco Lane, Fiesta Town",
+            "hours": "10 AM - 11 PM"
+        }
+    },
+    {
+        "name": "El Camino",
+        "image": "/static/images/El_Camino.jpg",
+        "cuisine": "Mexican",
+        "details": {
+            "description": "Casual dining with a focus on fresh ingredients and traditional recipes.",
+            "specialties": "Burritos, Enchiladas",
+            "ambiance": "Laid-back, Colorful",
+            "location": "101 Fiesta Road, Fiesta Town",
+            "hours": "11 AM - 10 PM"
+        }
+    },
+    {
+        "name": "Le Gourmet",
+        "image": "/static/images/Le_Gourmet.jpeg",
+        "cuisine": "French",
+        "details": {
+            "description": "Fine dining experience with a focus on classic French cuisine.",
+            "specialties": "Coq au Vin, Ratatouille",
+            "ambiance": "Luxurious, Intimate",
+            "location": "101 Gourmet Blvd, Paris",
+            "hours": "6 PM - 11 PM"
+        }
+    },
+    {
+        "name": "Bistro de Paris",
+        "image": "/static/images/Bistro_de_Paris.jpg",
+        "cuisine": "French",
+        "details": {
+            "description": "Charming bistro offering classic French dishes in a relaxed atmosphere.",
+            "specialties": "Croissants, Bouillabaisse",
+            "ambiance": "Chic, Cozy",
+            "location": "102 Bistro Street, Paris",
+            "hours": "7 AM - 10 PM"
+        }
+    },
+    {
+        "name": "Bombay Spice",
+        "image": "/static/images/Bombay_Spice.jpg",
+        "cuisine": "Indian",
+        "details": {
+            "description": "Authentic Indian restaurant offering a variety of flavorful dishes.",
+            "specialties": "Butter Chicken, Biryani",
+            "ambiance": "Cultural, Warm",
+            "location": "202 Spice Road, Mumbai",
+            "hours": "12 PM - 10 PM"
+        }
+    },
+    {
+        "name": "Spice Route",
+        "image": "/static/images/Spice_Route.jpg",
+        "cuisine": "Indian",
+        "details": {
+            "description": "Casual eatery specializing in North and South Indian cuisine.",
+            "specialties": "Dosas, Paneer Tikka",
+            "ambiance": "Traditional, Family-friendly",
+            "location": "203 Spice Lane, Mumbai",
+            "hours": "11 AM - 10 PM"
+        }
+    },
+    {
+        "name": "BBQ Brothers",
+        "image": "/static/images/BBQ_Brothers.jpg",
+        "cuisine": "American",
+        "details": {
+            "description": "A barbecue joint serving smoked meats and tangy sauces.",
+            "specialties": "Ribs, Pulled Pork",
+            "ambiance": "Rustic, Casual",
+            "location": "303 Grill Street, Barbecue City",
+            "hours": "12 PM - 9 PM"
+        }
+    },
+    {
+        "name": "Burger Haven",
+        "image": "/static/images/Burger_Haven.jpg",
+        "cuisine": "American",
+        "details": {
+            "description": "Classic American diner famous for its gourmet burgers and milkshakes.",
+            "specialties": "Burgers, Fries",
+            "ambiance": "Retro, Fun",
+            "location": "304 Diner Avenue, Barbecue City",
+            "hours": "10 AM - 11 PM"
+        }
+    },
+    {
+        "name": "Dragon's Den",
+        "image": "/static/images/Dragons_Den.jpg",
+        "cuisine": "Chinese",
+        "details": {
+            "description": "Authentic Chinese restaurant known for its Dim Sum and flavorful stir-fries.",
+            "specialties": "Dim Sum, Peking Duck",
+            "ambiance": "Modern, Comfortable",
+            "location": "404 Dragon Road, Chinatown",
+            "hours": "11 AM - 11 PM"
+        }
+    },
+    {
+        "name": "Chow House",
+        "image": "/static/images/Chow_House.jpEg",
+        "cuisine": "Chinese",
+        "details": {
+            "description": "Contemporary eatery serving a variety of traditional Chinese dishes.",
+            "specialties": "Chow Mein, Sweet and Sour Pork",
+            "ambiance": "Casual, Cozy",
+            "location": "405 Noodle Lane, Chinatown",
+            "hours": "12 PM - 10 PM"
+        }
+    },
+    {
+        "name": "La Parrilla",
+        "image": "/static/images/La_Parrilla.jpg",
+        "cuisine": "Argentinian",
+        "details": {
+            "description": "Steakhouse with a focus on Argentinian grilled meats and chimichurri.",
+            "specialties": "Steak, Empanadas",
+            "ambiance": "Rustic, Warm",
+            "location": "505 Grill Avenue, Buenos Aires",
+            "hours": "5 PM - 11 PM"
+        }
+    },
+    {
+        "name": "El Asador",
+        "image": "/static/images/El_Asador.jpeg",
+        "cuisine": "Argentinian",
+        "details": {
+            "description": "Traditional parrilla offering a range of grilled meats and regional dishes.",
+            "specialties": "Asado, Choripan",
+            "ambiance": "Lively, Family-friendly",
+            "location": "506 Grill Street, Buenos Aires",
+            "hours": "12 PM - 10 PM"
+        }
+    },
+    {
+        "name": "Greek Island Taverna",
+        "image": "/static/images/Greek_Island_Taverna.jpeg",
+        "cuisine": "Greek",
+        "details": {
+            "description": "Traditional Greek restaurant offering Mediterranean dishes and fresh seafood.",
+            "specialties": "Moussaka, Grilled Fish",
+            "ambiance": "Coastal, Relaxed",
+            "location": "606 Aegean Way, Athens",
+            "hours": "12 PM - 10 PM"
+        }
+    },
+    {
+        "name": "Santorini Grill",
+        "image": "/static/images/Santorini_Grill.jpeg",
+        "cuisine": "Greek",
+        "details": {
+            "description": "Authentic Greek taverna serving delicious gyros and souvlaki.",
+            "specialties": "Gyros, Souvlaki",
+            "ambiance": "Charming, Inviting",
+            "location": "607 Aegean Road, Athens",
+            "hours": "11 AM - 11 PM"
+        }
+    },
+    {
+        "name": "Cafe Marrakech",
+        "image": "/static/images/Cafe_Marrakech.jpeg",
+        "cuisine": "Moroccan",
+        "details": {
+            "description": "A cozy cafe offering Moroccan tagines, couscous, and mint tea.",
+            "specialties": "Tagine, Couscous",
+            "ambiance": "Colorful, Intimate",
+            "location": "707 Spice Market, Marrakech",
+            "hours": "1 PM - 10 PM"
+        }
+    },
+    {
+        "name": "Marrakech Express",
+        "image": "/static/images/Marrakech_Express.jpeg",
+        "cuisine": "Moroccan",
+        "details": {
+            "description": "A vibrant restaurant serving traditional Moroccan dishes with a modern twist.",
+            "specialties": "Harira, Pastilla",
+            "ambiance": "Cultural, Lively",
+            "location": "708 Market Street, Marrakech",
+            "hours": "12 PM - 11 PM"
+        }
+    }
+]
